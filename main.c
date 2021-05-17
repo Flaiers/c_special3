@@ -11,7 +11,7 @@ int Perimeter(float x1, float y1, float x2, float y2)
 
 int main(void)
 {
-  int n = 10, t, i, k;
+  int n = 10, i, k, t;
   int x[n], y[n] ,p[n], p2[n];
 
   for (i=0; i<n; i++)
@@ -32,7 +32,7 @@ int main(void)
 
   for (i=0; i<(n-1); i++)
   {
-    t = t + Perimeter(x[i], y[i], x[i+1, y[i+1]);
+    t = t + Perimeter(x[i],y[i],x[i+1],y[i+1]);
   }
     printf("Perimeter = %d\n", t);
 }
